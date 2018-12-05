@@ -1,0 +1,53 @@
+.row{
+    margin: 15px !important;
+}
+
+.navbar{
+    background-color: transparent;
+}
+.navbar-toggler-icon{
+        background: url('../img/hamburger-menu.png') !important;
+        background-repeat: no-repeat !important;
+}
+
+.navbar-brand{
+    color: #fff;
+    font-family: 'Comfortaa';
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navbar-brand:hover{
+    color: #ff00d4;
+}
+
+.nav-link{
+    color:#fff;
+    font-family: 'Didact Gothic';
+    font-size: 1rem;
+}
+
+.nav-link:hover{
+    color: #9000ff;
+}
+
+col{
+    text-align: center;
+}
+
+.container-fluid{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.card{
+    border: none !important;
+}
+
+.card-deck{
+    margin-bottom: 6em;
+}
+
+.form-group{
+    border: 1px solid ##373B44;
+}

@@ -1,0 +1,179 @@
+.own-hamburger-menu{
+    background: url('../img/hamburgerMenu.svg');
+}
+
+.own-container{
+        background: #FF0099;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.own-container h1{
+    font-family: 'Noto Serif JP';
+    font-weight: 600;
+    font-style: italic;
+    font-size: 8vw;
+    color: #fff;
+    margin-left: 0.5em;
+}
+
+.own-container h2{
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 4vw;
+    color: #fff;
+    margin: 1em;
+}
+
+.own-button{
+    color: #FF0099;
+	background-color: transparent;
+    border: 2px solid #FF0099;
+    font-family: 'Comfortaa';
+	font-size: 2vw;
+	font-weight: 700;
+	margin: 2em;
+}
+
+header{
+    padding: 0 !important;
+}
+
+header .own-button{
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.card-body .own-button{
+    font-size: 1vw;
+}
+
+.card-body .own-button:hover{
+    color: #440043;
+    border: 1px solid #440043;
+}
+
+.own-button:hover{
+    color: #fffa00;
+    border: 1px solid #fffa00;
+}
+
+h2{
+    font-family: 'Londrina Outline';
+    color: #FF0099;
+    font-size: 8vw;
+}
+
+p{
+    font-family: 'News Cycle';
+    color: #440043;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #440043;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer p{
+    color: #fff;
+    font-family: 'Comfortaa';
+    font-size: 1vw;
+    font-weight: 300;
+    margin: 0;
+}
+
+.social-icons{
+    width: 1.2em;
+    height: auto;
+    margin-right: 1.5em;
+}
+
+/*szolgáltatások*/
+
+.szolgaltatasok-header {
+    background: #34e89e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.szolgaltatasok-header img{
+    width: 30em;
+}
+
+/*referenciák*/
+
+.referenciak-header{
+    background: #FFE000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */            
+}
+
+#referenciak-header-pic{
+    width: 35em;
+    margin-right: -15px;
+}
+
+.own-right-col{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    float: right;
+}
+
+/*kapcsolat*/
+.kapcsolat-header{
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#kapcsolat_header-pic{
+    width: 20em;
+}
+
+form label{
+    font-family: 'Comfortaa';
+    color: #373B44;
+    font-size: 2vw;
+}
+
+form a{
+    color: #373B44 !important;
+    border: 2px solid #373B44 !important;
+}
+
+form a:hover{
+    color: #fffa00 !important;
+    border: 1px solid #fffa00 !important;
+}
+
+form{
+    max-width: 20em;
+}
+
+form .own-button{
+    margin: 0 !important;
+    font-size: 1.5vw !important;
+}
+
+.bigger-p{
+    font-size: 2vw;
+    color: #4286f4;
+}
+
+	/*Highlight*/
+
+    ::selection{ /* Safari és Opera */
+        background:#FF0099;
+        color:#000;
+}
+
+    ::-moz-selection{ /* Firefox */
+            background:#FF0099;
+            color:#000;
+}
