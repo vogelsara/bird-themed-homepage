@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+}
+
 .own-hamburger-menu{
     background: url('../img/hamburgerMenu.svg');
 }
@@ -14,7 +18,6 @@
     font-style: italic;
     font-size: 8vw;
     color: #fff;
-    margin-left: 0.5em;
 }
 
 .own-container h2{
@@ -22,7 +25,7 @@
     font-weight: 300;
     font-size: 4vw;
     color: #fff;
-    margin: 1em;
+    margin: 1em 0 1em 0;
 }
 
 .own-button{
@@ -60,7 +63,12 @@ header .own-button{
 h2{
     font-family: 'Londrina Outline';
     color: #FF0099;
-    font-size: 8vw;
+    font-size: 2em;
+}
+
+h3{
+    color: #95c11f;
+    font-size: 1vw;
 }
 
 p{
@@ -90,6 +98,17 @@ footer p{
     margin-right: 1.5em;
 }
 
+@media screen and (min-width: 768px) {
+    p{
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    .text-div{
+        margin-left: 3em;
+    }
+
+}
+
 /*szolgáltatások*/
 
 .szolgaltatasok-header {
@@ -104,7 +123,7 @@ footer p{
     width: 30em;
 }
 
-/*referenciák*/
+/*myworks*/
 
 .referenciak-header{
     background: #FFE000;  /* fallback for old browsers */
@@ -122,6 +141,16 @@ footer p{
     flex: 0 0 50%;
     max-width: 50%;
     float: right;
+}
+
+#github-icon{
+    max-width: 100px;
+}
+
+#linkedin-icon{
+    max-width: 100px;
+    margin-left: 2em;
+    margin-bottom: -12px;
 }
 
 /*kapcsolat*/
